@@ -6,14 +6,32 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+.jobOonjaMiddleBackGroundUser .shape-div{
+	margin: 0px calc(11vw + 160px);
+	display: inline-flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
 .customRectangle{
 	border-bottom: 30px solid #58C9CD;
-	border-left: 45px solid transparent;
+	border-left: 20px solid transparent;
 	border-right: 25px solid transparent;
 	height: 0;
 	width: 200px;
-	margin: 0px 380px;
 	z-index: 2;
+	position: relative;
+	margin-right: -210px;
+
+}
+.customRectangle2{
+	border-bottom: 30px solid #6EDBDE;
+	border-left: 20px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 200px;
+	z-index: 1;
+	position: relative;
+
 }
 .userImage{
 	height: 100%;
@@ -27,11 +45,11 @@
 	width: 230px;
 	margin: -10vh 11vw 0px 0px;
 	float: right;
-	background-color: rgba(253, 253, 253,0.8);
+	background-color: rgba(253, 253, 253,0.5);
 	padding: 10px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 1px lightgray;
-	z-index: 1;
+	z-index: 3;
 }
 .jobOonjaMiddleBackGroundUser .rectangle{
 	right: calc(230px + 11vw);
@@ -320,10 +338,10 @@
 	width: 150px;
 	margin: -10vh 11vw 0px 0px;
 	float: right;
-	background-color: rgba(253, 253, 253,0.8);
+	background-color: rgba(253, 253, 253,0.5);
 	padding: 5px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 1px lightgray;
-	z-index: 1;
+	z-index: 3;
 }
 }
