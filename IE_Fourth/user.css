@@ -5,6 +5,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    box-shadow:  inset 0px 11px 8px -10px lightblue, inset 0px -11px 8px -10px lightblue;
 }
 .jobOonjaMiddleBackGroundUser .shape-div{
 	margin: 0px calc(11vw + 160px);
